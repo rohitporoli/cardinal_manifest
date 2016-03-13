@@ -500,7 +500,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
-  <project path="manifest" name="manifest" remote="car" />
+  <project path="manifest" name="TEAMCARDINAL/manifest" remote="car" />
 
   <!-- New Additions for slim -->
   <project path="vendor/cardinal" name="vendor_cardinal" remote="car" />
