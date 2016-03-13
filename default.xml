@@ -512,7 +512,7 @@
   <project path="manifest" name="manifest" remote="car" />
 
   <!-- New Additions for slim -->
-  <project path="vendor/cardinal" name="vendor_cardinal" remote="car" />
+  <project path="vendor/cardinal" name="android_vendor_cardinal" remote="car" />
 
   <!-- CAF repos -->
   <project path="vendor/qcom/opensource/display-frameworks" name="vendor_qcom_opensource_display-frameworks" remote="aospb" />
@@ -532,7 +532,7 @@
   <project path="external/stagefright-plugins" name="external_stagefright-plugins" remote="aospb" />
   
   <!-- TOOLCHAINS -->
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="UBERTC/aarch64-linux-android-5.3" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="UBERTC/aarch64-linux-android-5.3-kernel" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="UBERTC/arm-eabi-4.9" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="UBERTC/arm-eabi-5.3" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="UBERTC/arm-linux-androideabi-5.3" remote="bb" revision="master" />
