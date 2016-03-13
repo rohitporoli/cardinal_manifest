@@ -15,9 +15,6 @@
            fetch="https://github.com/TEAMCARDINAL"
            revision="mm6.0" />
 		   
-  <remote name="github"
-         fetch="https://github.com" />
-
   <remote name="gitlab"
          fetch="https://gitlab.com/" />
 
@@ -26,12 +23,6 @@
 		  
   <remote name="private"
          fetch="ssh://git@github.com" />
-		  
-  <remote name="cm"
-         fetch="https://github.com/"
-         sync-c="true"
-         revision="refs/heads/cm-13.0"
-         sync-j="4" />
 
   <default revision="refs/tags/android-6.0.1_r10"
            remote="aosp"
