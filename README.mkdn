@@ -1,0 +1,16 @@
+Welcome to Cardinal-AOSP
+========================
+
+Getting Started
+---------------
+
+To get started with Cardinal-AOSP, you'll need to get familiar with Git and Repo.
+
+To initialize your local repository using the Cardinal-AOSP trees, use this command:
+
+		repo init -u git://github.com/TEAMCARDINAL/manifest.git -b mm6.0
+
+
+Then sync up with this command:
+
+	repo sync
