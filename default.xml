@@ -28,7 +28,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="build" remote="aospb" >
+  <project path="build" name="android_build" remote="car" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -511,7 +511,7 @@
 
   <project path="manifest" name="manifest" remote="car" />
 
-  <!-- New Additions for slim -->
+  <!-- cardinal vendor-->
   <project path="vendor/cardinal" name="android_vendor_cardinal" remote="car" />
 
   <!-- CAF repos -->
